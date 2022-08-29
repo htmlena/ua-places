@@ -1,7 +1,13 @@
-import Footer from "../components/Footer/Footer";
 import HeadComponent from "../components/HeadComponent/HeadComponent";
-import Header from "../components/Header/Header";
+import UpperFilter from "../components/UpperFIlter/UpperFilter";
 
-export default function Home() {
-  return <div>Hello</div>;
-}
+const Home = () => {
+  return (
+    <>
+      <HeadComponent />
+      <UpperFilter />
+    </>
+  );
+};
+
+export default Home;

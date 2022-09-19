@@ -10,10 +10,19 @@ const Home = () => {
 
   const menuItems = [...new Set(Data.map((value) => value.category))];
 
+  const filterItem = (currentCategory) => {
+    const newItem = Data.filter((newValue) => {
+      return newValue.category === currentCategory; 
+        	// comparing category for displaying data
+    });
+    setItem(newItem);
+  };
+
+
   return (
     <>
       <HeadComponent />
-      <UpperFilter setItem={setItem} menuItems={menuItems} />
+      <UpperFilter setItem={setItem} menuItems={menuItems} filterItem={filterItem} />
       {/* <PlaceCards /> */}
       <Card item={item} />
     </>

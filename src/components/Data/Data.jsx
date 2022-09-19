@@ -5,7 +5,7 @@ const Data = [
     url: "https://theborsch.cz/",
     shortDescription: "Ukrajinská polévkárna",
     city: "Praha",
-    category: 'Restaurace',
+    category: "Restaurace",
   },
   {
     id: 2,
@@ -14,7 +14,7 @@ const Data = [
     shortDescription:
       "Ukrajinská restaurace, speciality ukrajinské domácí kuchyně",
     city: "Praha",
-    category: 'Restaurace'
+    category: "Restaurace",
   },
   {
     id: 3,
@@ -22,15 +22,7 @@ const Data = [
     url: "https://www.golem-praha.cz/",
     shortDescription: "Česko-ukrajinská restaurace",
     city: "Praha",
-    category: 'Restaurace'
-  },
-  {
-    id: 3,
-    name: "Other place",
-    url: "#",
-    shortDescription: "Some other place",
-    city: "Praha",
-    category: 'Jiné',
+    category: "Restaurace",
   },
 ];
 

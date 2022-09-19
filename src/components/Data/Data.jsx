@@ -24,6 +24,63 @@ const Data = [
     city: "Praha",
     category: "Restaurace",
   },
+  {
+    id: 4,
+    name: "Sladkanina",
+    url: "https://www.sladkanina.cz/",
+    shortDescription: "Sladkanina obchod s ukrajinskými potravinami v Praze",
+    city: "Praha",
+    category: "Jiné",
+  },
+  {
+    id: 5,
+    name: "Podkova - ukrajinské potraviny",
+    url: "https://goo.gl/maps/LS7sXT7cWjJbvthYA",
+    shortDescription: "Ukrajinské potraviny",
+    city: "Praha",
+    category: "Jiné",
+  },
+  {
+    id: 6,
+    name: "Ráj delikates",
+    url: "https://www.rajdelikates.cz/",
+    shortDescription:
+      "Speciality, delikatesy a dezerty ze středomoří a Východní Evropy. Obchod a e-shop",
+    city: "Plzeň",
+    category: "Jiné",
+  },
+  {
+    id: 7,
+    name: "BARVA",
+    url: "https://www.barvamarket.com/en",
+    shortDescription: "Ukrajinská restaurace",
+    city: "Praha",
+    category: "Restaurace",
+  },
+  {
+    id: 8,
+    name: "Buď Laska",
+    url: "https://www.barvamarket.com/en",
+    shortDescription: "Ukrajinskij restoran",
+    city: "Vranov nad Dyjí",
+    category: "Restaurace",
+  },
+  {
+    id: 9,
+    name: "Tryzub",
+    url: "https://www.tryzub.cz/",
+    shortDescription: "Tradiční ukrajinská kuchyně",
+    city: "Brno",
+    category: "Restaurace",
+  },
+  {
+    id: 10,
+    name: "Restaurace Ukrajina",
+    url: "https://restauraceukrajina.cz/",
+    shortDescription: "Tradiční ukrajinská restaurace",
+    city: "Karlovy Vary",
+    category: "Restaurace",
+  },
 ];
 
 export default Data;

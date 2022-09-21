@@ -30,7 +30,7 @@ const Data = [
     url: "https://www.sladkanina.cz/",
     shortDescription: "Sladkanina obchod s ukrajinskými potravinami v Praze",
     city: "Praha",
-    category: "Jiné",
+    category: "Obchody",
   },
   {
     id: 5,
@@ -38,7 +38,7 @@ const Data = [
     url: "https://goo.gl/maps/LS7sXT7cWjJbvthYA",
     shortDescription: "Ukrajinské potraviny",
     city: "Praha",
-    category: "Jiné",
+    category: "Obchody",
   },
   {
     id: 6,
@@ -47,7 +47,7 @@ const Data = [
     shortDescription:
       "Speciality, delikatesy a dezerty ze středomoří a Východní Evropy. Obchod a e-shop",
     city: "Plzeň",
-    category: "Jiné",
+    category: "Obchody",
   },
   {
     id: 7,

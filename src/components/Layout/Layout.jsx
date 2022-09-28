@@ -3,7 +3,7 @@ import Header from "../Header/Header";
 
 const Layout = ({ children }) => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col px-3.5 md:px-11">
       <Header />
       <main className="grow">{children}</main>
       <Footer />

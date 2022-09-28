@@ -1,8 +1,6 @@
-import { useState } from "react";
 
 const PlaceCards = () => {
   
-
   return (
     <div className="grid md:grid-cols-2 gap-4 pt-8">
       {places.map((place) => (

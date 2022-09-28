@@ -6,6 +6,9 @@ const nextConfig = {
     locales: ["cs"],
     defaultLocale: "cs",
   },
+  images: {
+    domains: ["ukrainian-recipes.com"],
+  },
 };
 
 module.exports = nextConfig;

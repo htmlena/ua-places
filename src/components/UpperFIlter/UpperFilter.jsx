@@ -7,7 +7,7 @@ const UpperFilter = ({ setItem, menuItems, filterItem }) => {
         return (
           <div
             key={id}
-            className="mx-1 rounded-3xl hover:shadow-slate-500 hover:border"
+            className="mx-1 rounded-3xl hover:shadow-md transition-shadow"
             onClick={() => filterItem(value)}
           >
             <button className="p-1 px-3 mx-5 fw-bold btn text-gray">
@@ -16,7 +16,7 @@ const UpperFilter = ({ setItem, menuItems, filterItem }) => {
           </div>
         );
       })}
-      <div className="mx-1 rounded-3xl hover:shadow-slate-500 hover:border">
+      <div className="mx-1 rounded-3xl hover:shadow-md transition-shadow">
         <button
           className="p-1 px-3 mx-5 fw-bold btn text-gray"
           onClick={() => setItem(Data)}

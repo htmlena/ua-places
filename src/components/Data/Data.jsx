@@ -4,6 +4,8 @@ const Data = [
     name: "The Borsch",
     url: "https://theborsch.cz/",
     shortDescription: "Ukrajinská polévkárna",
+    image:
+      "https://ukrainian-recipes.com/wp-content/uploads/2019/11/00%D0%B0.jpg",
     city: "Praha",
     category: "Restaurace",
   },
@@ -11,8 +13,9 @@ const Data = [
     id: 2,
     name: "Dnister",
     url: "https://www.facebook.com/domasnjaukrajinskakuchnja",
-    shortDescription:
-      "Ukrajinská restaurace, speciality ukrajinské domácí kuchyně",
+    shortDescription: "Speciality ukrajinské domácí kuchyně",
+    image:
+      "https://ukrainian-recipes.com/wp-content/uploads/2019/11/00%D0%B0.jpg",
     city: "Praha",
     category: "Restaurace",
   },
@@ -21,6 +24,8 @@ const Data = [
     name: "Golemův restaurant",
     url: "https://www.golem-praha.cz/",
     shortDescription: "Česko-ukrajinská restaurace",
+    image:
+      "https://ukrainian-recipes.com/wp-content/uploads/2019/11/00%D0%B0.jpg",
     city: "Praha",
     category: "Restaurace",
   },
@@ -28,7 +33,9 @@ const Data = [
     id: 4,
     name: "Sladkanina",
     url: "https://www.sladkanina.cz/",
-    shortDescription: "Sladkanina obchod s ukrajinskými potravinami v Praze",
+    shortDescription: "Sladkanina obchod s ukrajinskými potravinami",
+    image:
+      "https://ukrainian-recipes.com/wp-content/uploads/2019/11/00%D0%B0.jpg",
     city: "Praha",
     category: "Obchody",
   },
@@ -37,6 +44,8 @@ const Data = [
     name: "Podkova - ukrajinské potraviny",
     url: "https://goo.gl/maps/LS7sXT7cWjJbvthYA",
     shortDescription: "Ukrajinské potraviny",
+    image:
+      "https://ukrainian-recipes.com/wp-content/uploads/2019/11/00%D0%B0.jpg",
     city: "Praha",
     category: "Obchody",
   },
@@ -45,7 +54,9 @@ const Data = [
     name: "Ráj delikates",
     url: "https://www.rajdelikates.cz/",
     shortDescription:
-      "Speciality, delikatesy a dezerty ze středomoří a Východní Evropy. Obchod a e-shop",
+      "Speciality, delikatesy a dezerty ze středomoří a Východní Evropy",
+    image:
+      "https://ukrainian-recipes.com/wp-content/uploads/2019/11/00%D0%B0.jpg",
     city: "Plzeň",
     category: "Obchody",
   },
@@ -54,6 +65,8 @@ const Data = [
     name: "BARVA",
     url: "https://www.barvamarket.com/en",
     shortDescription: "Ukrajinská restaurace",
+    image:
+      "https://ukrainian-recipes.com/wp-content/uploads/2019/11/00%D0%B0.jpg",
     city: "Praha",
     category: "Restaurace",
   },
@@ -62,6 +75,8 @@ const Data = [
     name: "Buď Laska",
     url: "https://www.barvamarket.com/en",
     shortDescription: "Ukrajinskij restoran",
+    image:
+      "https://ukrainian-recipes.com/wp-content/uploads/2019/11/00%D0%B0.jpg",
     city: "Vranov nad Dyjí",
     category: "Restaurace",
   },
@@ -70,6 +85,8 @@ const Data = [
     name: "Tryzub",
     url: "https://www.tryzub.cz/",
     shortDescription: "Tradiční ukrajinská kuchyně",
+    image:
+      "https://ukrainian-recipes.com/wp-content/uploads/2019/11/00%D0%B0.jpg",
     city: "Brno",
     category: "Restaurace",
   },
@@ -78,6 +95,8 @@ const Data = [
     name: "Restaurace Ukrajina",
     url: "https://restauraceukrajina.cz/",
     shortDescription: "Tradiční ukrajinská restaurace",
+    image:
+      "https://ukrainian-recipes.com/wp-content/uploads/2019/11/00%D0%B0.jpg",
     city: "Karlovy Vary",
     category: "Restaurace",
   },

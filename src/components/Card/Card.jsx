@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Card = ({ item }) => {
   return (
-    <div className="grid md:grid-cols-2 gap-4 pt-8">
+    <div className="flex flex-wrap justify-center gap-4 pt-8">
       {item.map((place) => (
         <div
           key={place.id}
@@ -18,12 +18,18 @@ const Card = ({ item }) => {
               />
             </div>
           </div>
+          {/* <div className="w-64 min-w-64 md:w-96 md:min-w-96 h-40">
+            <div
+              style={{ backgroundImage: `url(${place.image})` }}
+              className="w-full h-full"
+            ></div>
+          </div> */}
           <div className="w-64 min-w-64 md:w-96 md:min-w-96 border border-zinc-100 rounded-b-lg py-3">
             <div className="px-3">
               <a href={place.url} className="font-semibold">
                 <p className="text-lg">{place.name}</p>
               </a>
-              <p className="text-gray text-sm pt-0.5 sm:pt-1 pb-1 sm:pb-1.5">
+              <p className="text-gray text-sm pt-0.5 sm:pt-1 pb-1 sm:pb-1.5 text-ellipsis overflow-hidden whitespace-nowrap">
                 {place.shortDescription}
               </p>
             </div>
